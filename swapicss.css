@@ -1,0 +1,106 @@
+body {
+  background-image: url(https://external-preview.redd.it/PbuVAkor8mt2UIOXmV3rJrz9ttoJnPfCKhID1i7IRyc.jpg?auto=webp&s=6623bd9774f2292b2c10f69ba2b1948f6cb26612);
+  color: black;
+  background-size: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 10px 10px 10px rgb(0, 0, 0);
+  color: gold;
+}
+
+li {
+  padding: 0.5%;
+  margin: 0.5%;
+  background-color: #eaeef5;
+  border: 2px solid #3576aa;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 60px;
+  text-decoration: none;
+  text-shadow: 0px 0px 12px #415a9e;
+  width: 60%;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin: 3%;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #66b1d3;
+}
+li:active {
+  position: relative;
+  top: 1px;
+}
+
+.nameList {
+  width: 30%;
+}
+
+header {
+  background-color: #000000;
+  padding: 2%;
+  background-blend-mode: color;
+  margin-left: 7%;
+  margin-right: 7%;
+  opacity: 90%;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 40%;
+}
+
+.nameSection {
+  flex-direction: row;
+}
+
+.planetSection {
+  background-color: rgb(141, 185, 224);
+  border: solid 2px black;
+  margin-top: 2%;
+}
+
+.characterSection {
+  background-color: rgb(70, 97, 128);
+  border: solid 2px black;
+}
+
+button {
+  text-align: center;
+}
